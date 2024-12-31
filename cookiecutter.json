@@ -1,0 +1,12 @@
+{
+  "project_name": "Python quickstart",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "package_name": "{{ cookiecutter.project_slug }}",
+  "project_description": "Python package with hatchling, ruff, tox, pytest, and mypy",
+  "author_name": "Tristan McKinney",
+  "author_email": "tristan.j.mckinney@gmail.com",
+  "python_version": "3.13",
+  "min_python_version": "3.9",
+  "include_sample_code": "no",
+  "year": "2024"
+}
